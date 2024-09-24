@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const navButton = () => {
+const NavButton = () => {
   const pathname = usePathname();
 
   const text = pathname == "/experience" ? "About" : "Experience";
@@ -18,4 +18,4 @@ const navButton = () => {
   );
 };
 
-export default navButton;
+export default NavButton;

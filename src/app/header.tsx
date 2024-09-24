@@ -7,12 +7,6 @@ export function Header() {
       <Logo />
 
       <nav className="font-mono text-xs grow justify-end  flex gap-1 md:gap-3">
-        {/* <Link
-          href="/experience"
-          className="inlin-flex hover:bg-gray-100 active:bg-gray-300 rounded-sm p-2 transition-[background-color]"
-        >
-          Experience
-        </Link> */}
         <NavButton />
         <a
           href="https://www.linkedin.com/in/christ-rova/"
@@ -26,7 +20,7 @@ export function Header() {
   );
 }
 
-function Linkedin(props: any) {
+function Linkedin() {
   return (
     <svg
       fill="currentColor"
@@ -34,7 +28,6 @@ function Linkedin(props: any) {
       height={12}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 310 310"
-      {...props}
     >
       <g id="XMLID_801_">
         <path

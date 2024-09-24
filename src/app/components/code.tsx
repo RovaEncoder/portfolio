@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import { CodeProps } from "../types";
 
 export const Code = ({ children }: CodeProps) => {
