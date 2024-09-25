@@ -1,3 +1,4 @@
+import { FaRegHandPeace } from "react-icons/fa6";
 import { A } from "./components/a";
 
 export function Footer() {
