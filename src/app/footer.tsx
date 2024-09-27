@@ -11,7 +11,7 @@ export function Footer() {
         )
       </div>
       <div>
-        <A target="_blank" href="https://github.com/RovaEncoder">
+        <A target="_blank" href="https://github.com/RovaEncoder/portfolio">
           Source
         </A>
       </div>
