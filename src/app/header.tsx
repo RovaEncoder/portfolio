@@ -11,7 +11,7 @@ export function Header() {
         <a
           href="https://www.linkedin.com/in/christ-rova/"
           target="_blank"
-          className="flex gap-1   hover:bg-gray-100 active:bg-gray-300  p-2 rounded-sm transition-[background-color] -mr-2"
+          className="flex gap-1 hover:bg-gray-100  p-2 rounded-sm transition-[background-color] -mr-2"
         >
           <Linkedin /> Linkedin
         </a>
