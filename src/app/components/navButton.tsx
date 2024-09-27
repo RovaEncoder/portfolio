@@ -11,7 +11,7 @@ const NavButton = () => {
   return (
     <Link
       href={link}
-      className="inlin-flex hover:bg-gray-100 active:bg-gray-300 rounded-sm p-2 transition-[background-color]"
+      className="inlin-flex hover:bg-gray-100 rounded-sm p-2 transition-[background-color]"
     >
       {text}
     </Link>
